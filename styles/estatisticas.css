@@ -1,0 +1,62 @@
+.estatisticas {
+  background-color: #16191c;
+  padding: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.estatisticas-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d8d9cf;
+  height: 200px;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.estatisticas-card h3 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #16191c;
+  margin-bottom: 10px;
+}
+
+.estatisticas-card p {
+  color: #2b3a55;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .estatisticas-card {
+    height: 300px;
+  }
+
+  .estatisticas-card h3 {
+    font-size: 60px;
+  }
+
+  .estatisticas-card p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .estatisticas {
+    flex-direction: row;
+  }
+  .estatisticas-card {
+    width: 50%;
+  }
+
+  .estatisticas-card h3 {
+    font-size: 40px;
+  }
+
+  .estatisticas-card p {
+    font-size: 20px;
+  }
+}

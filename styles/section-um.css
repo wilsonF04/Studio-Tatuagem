@@ -1,0 +1,35 @@
+.banner {
+  height: 300px;
+  background-image: url(/img/process-of-creating-new-tattoo-for-young-woman-by-expirienced-tattoo-artist-at-studio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.banner h1 {
+  text-align: center;
+  padding-top: 150px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    height: 400px;
+  }
+
+  .banner h1 {
+    font-size: 68px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .banner {
+    height: 500px;
+  }
+
+  .banner h1 {
+    font-size: 68px;
+  }
+}

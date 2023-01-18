@@ -1,0 +1,24 @@
+.rodape {
+  padding: 10px 0;
+}
+
+.rodape span {
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .rodape span {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .rodape span {
+    font-size: 18px;
+  }
+}

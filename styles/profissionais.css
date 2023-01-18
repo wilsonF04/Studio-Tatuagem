@@ -1,0 +1,98 @@
+.profissional {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  border-radius: 2px;
+  background-color: #fff;
+  height: 500px;
+  background-image: url(/img/relaxed-funny-thick-man-with-naked-body-tattooed-arms-and-stomach-dances-while-listens-music-moves-arms-and-closes-eyes-in-enjoyment-wears-headphones-on-ears-has-fun-and-fee.jpg);
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.profissional:hover {
+  transform: scale(1.01);
+}
+
+.profissional h2 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin-top: 90px;
+}
+
+.profissional p {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.botao {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 15px 30px;
+  color: #2b3a55;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.botao:hover {
+  transform: scale(1.02);
+}
+
+.segundo {
+  background-image: url(/img/lens.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+
+.terceiro {
+  background-image: url(/img/gregy.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .profissional {
+    height: 600px;
+  }
+
+  .profissional h2 {
+    font-size: 50px;
+  }
+
+  .profissional p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .profissional {
+    height: 700px;
+  }
+  .profi {
+    display: flex;
+  }
+
+  .profissional h2 {
+    font-size: 50px;
+  }
+
+  .profissional p {
+    font-size: 20px;
+  }
+}
